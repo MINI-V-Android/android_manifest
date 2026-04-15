@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="mini-v" fetch="https://github.com/MINI-V-Android" revision="lineage-23.0" />
+
+<!-- Example when edit any project from LineageOS
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mini-v" />
+  -->
+
+<!-- Example when add new project
+  <project path="device/mini-v/mydevice" name="android_device_mini-v_mydevice" remote="mini-v" />
+  -->
+</manifest>
