@@ -2,7 +2,10 @@
 <manifest>
   <remote name="miniv"
           fetch="https://github.com/MINI-V-Android"
-          revision="refs/heads/lineage-23.2" />
+	  revision="refs/heads/lineage-23.2" />
+
+  <!-- Scripts -->
+  <project  path="vendor/mini-v/scripts" name="android_vendor_mini-v_scripts" remote="miniv" revision="main" />
 
   <!-- Xiaomi 13 (fuxi) -->
   <project path="device/xiaomi/fuxi" name="android_device_xiaomi_fuxi" remote="miniv" />
@@ -12,9 +15,18 @@
   <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" remote="miniv" />
   <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" remote="miniv" />
 
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="miniv" />
-
   <project path="vendor/xiaomi/fuxi" name="proprietary_vendor_xiaomi_fuxi" remote="miniv" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" remote="miniv" />
 
+  <!-- Xiaomi Redmi Note 10 Pro (sweet) -->
+  <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="miniv" />
+  <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="miniv" />
+
+  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="miniv" />
+
+  <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="miniv" />
+  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="miniv" />
+
+  <!-- Xiaomi Common -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="miniv" />
 </manifest>
