@@ -3,6 +3,8 @@
   <remote name="miniv"
           fetch="https://github.com/MINI-V-Android"
 	  revision="refs/heads/lineage-23.2" />
+
+    <!-- MINI-V AI Demon -->
   <project path="vendor/mini-v/ai" name="android_vendor_mini-v_ai" remote="miniv" branch="lineage-23.2" />
   <project path="vendor/mini-v/ai/htp-ops-lib" name="htp-ops-lib" remote="miniv" revision="main" />
   <project path="vendor/mini-v/ai/llama.cpp" name="llama.cpp-npu" remote="miniv" revision="main" />
