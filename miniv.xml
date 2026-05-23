@@ -5,6 +5,11 @@
           revision="refs/heads/lineage-23.2" />
 
   <!-- MINI-V AI -->
+  <!-- framework -->
+  <project path="frameworks/mini-v"
+           name="android_frameworks_mini-v"
+           remote="miniv" />
+
   <!-- demon -->
   <project path="vendor/mini-v/ai"
            name="android_vendor_mini-v_ai"
