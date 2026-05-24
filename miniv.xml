@@ -19,7 +19,7 @@
   <project path="external/llama.cpp-npu"
            name="llama.cpp-npu"
            remote="miniv"
-           revision="main" />
+           revision="htp-backend" />
            <!-- TODO: register to HAL -->
 
   <!-- Hexagon HTP ops -->
