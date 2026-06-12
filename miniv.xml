@@ -11,6 +11,11 @@
            remote="miniv" />
 
   <!-- MINI-V AI -->
+  <!-- chat application -->
+  <project path="packages/apps/MiniVChat"
+           name="android_packages_apps_MiniVChat"
+           remote="miniv" />
+
   <!-- framework -->
   <project path="frameworks/mini-v"
            name="android_frameworks_mini-v"
