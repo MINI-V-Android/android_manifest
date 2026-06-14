@@ -40,6 +40,9 @@
            revision="main" />
            <!-- TODO: register to HAL -->
 
+  <!-- Configs -->
+  <project path="vendor/mini-v/config" name="android_vendor_mini-v_config" remote="miniv" revision="main" />
+
   <!-- Scripts -->
   <project  path="vendor/mini-v/scripts" name="android_vendor_mini-v_scripts" remote="miniv" revision="main" />
 
