@@ -48,10 +48,10 @@
            <!-- TODO: register to HAL -->
 
   <!-- Configs -->
-  <project path="vendor/mini-v/config" name="android_vendor_mini-v_config" remote="miniv" revision="main" />
+  <project path="vendor/mini-v/config" name="android_vendor_mini-v_config" remote="miniv" />
 
   <!-- Scripts -->
-  <project  path="vendor/mini-v/scripts" name="android_vendor_mini-v_scripts" remote="miniv" revision="main" />
+  <project  path="vendor/mini-v/scripts" name="android_vendor_mini-v_scripts" remote="miniv" />
 
   <!-- Xiaomi 13 (fuxi) -->
   <project path="device/xiaomi/fuxi" name="android_device_xiaomi_fuxi" remote="miniv" />
