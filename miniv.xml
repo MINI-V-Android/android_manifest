@@ -33,6 +33,12 @@
            name="android_vendor_mini-v_ai"
            remote="miniv" />
 
+  <!-- llama.cpp - original ggml fork (for daemon test) -->
+  <project path="external/llama-cpp-miniv"
+           name="llama.cpp"
+           remote="miniv"
+           revision="master" />
+
   <!-- llama.cpp -->
   <project path="external/llama.cpp-npu"
            name="llama.cpp-npu"
