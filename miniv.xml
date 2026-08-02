@@ -14,7 +14,7 @@
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="MINI-V-Android/android_system_sepolicy"
            path="system/sepolicy"
-           remote="mini-v" />
+           remote="miniv" />
 
   <!-- qcom libvmmem -->
   <!-- qcom device trees require this repository, but lineageos did not apply this project to all devices -->
