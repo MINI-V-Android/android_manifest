@@ -37,7 +37,8 @@
   <!-- demon -->
   <project path="vendor/mini-v/ai"
            name="android_vendor_mini-v_ai"
-           remote="miniv" />
+           remote="miniv"
+           revision="npu_hal" />
 
   <!-- llama.cpp - original ggml fork (for daemon test) -->
   <project path="external/llama-cpp-miniv"
